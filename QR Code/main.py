@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image
 
-data = input("Seu Testo: ")
+data = input("Link: ")
 
 qr = qrcode.QRCode(version=2, box_size=10, border=4)
 qr.add_data(data)
